@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilites{
+   .card{
+    @apply md:w-96 flex flex-col shadow-slate-950 shadow-lg p-4 m-4 rounded-lg gap-2 hover:scale-90 duration-500
+} 
+}
